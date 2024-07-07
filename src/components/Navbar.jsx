@@ -8,6 +8,7 @@ export const Navbar = () => {
     <nav>
       <Link to="/" className="logo__container">
         <img src="../../img/logo.png" className="logo" alt="" />
+        <h1>MedDelivery</h1>
       </Link>
       <div className="menu" onClick={()=>{
         setopenMenu(!openMenu);

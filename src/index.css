@@ -4,3 +4,10 @@
   box-sizing: border-box;
   font-family: "Popins", sans-serif;
 }
+
+:root {
+  --nav-color: #0f177a;
+  --nav-text-color: #fff;
+  --nav-active-color: #8ea1d3;
+  --nav-hover-color: #4a5c95;
+}

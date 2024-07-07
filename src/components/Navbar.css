@@ -20,7 +20,15 @@ nav {
 }
 
 nav .logo__container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   margin: 1rem;
+  text-decoration: none;
+}
+
+.logo__container h1{
+  color: var(--nav-active-color);
 }
 
 .logo {

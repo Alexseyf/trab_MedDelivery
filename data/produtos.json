@@ -1,0 +1,354 @@
+{
+  "produtos": [
+    {
+      "farmaco": "Paracetamol",
+      "detentor": "EMS S/A",
+      "medicamento": "Paracetamol EMS",
+      "registro": "1.0573.0117",
+      "concentracao": "500 mg",
+      "valor": 8.99,
+      "imagem": "paracetamol.jpg",
+      "tipo": "medicamento"
+    },
+    {
+      "farmaco": "Dipirona Sódica",
+      "detentor": "Medley Farmacêutica Ltda.",
+      "medicamento": "Novalgina",
+      "registro": "1.0390.0433",
+      "concentracao": "500 mg/mL",
+      "valor": 6.79,
+      "imagem": "dipirona.jpg",
+      "tipo": "medicamento"
+    },
+    {
+      "farmaco": "Amoxicilina",
+      "detentor": "EMS S/A",
+      "medicamento": "Amoxil",
+      "registro": "1.0573.0115",
+      "concentracao": "500 mg",
+      "valor": 12.99,
+      "imagem": "amoxicilina.jpg",
+      "tipo": "medicamento"
+    },
+    {
+      "farmaco": "Ibuprofeno",
+      "detentor": "Medley Farmacêutica Ltda.",
+      "medicamento": "Ibupril",
+      "registro": "1.0390.0435",
+      "concentracao": "600 mg",
+      "valor": 9.99,
+      "imagem": "ibuprofeno.jpg",
+      "tipo": "medicamento"
+    },
+    {
+      "farmaco": "Cefalexina",
+      "detentor": "EMS S/A",
+      "medicamento": "Keflex",
+      "registro": "1.0573.0116",
+      "concentracao": "500 mg",
+      "valor": 15.99,
+      "imagem": "cefalexina.jpg",
+      "tipo": "medicamento"
+    },
+    {
+      "farmaco": "Azitromicina",
+      "detentor": "Medley Farmacêutica Ltda.",
+      "medicamento": "Zitromax",
+      "registro": "1.0390.0437",
+      "concentracao": "500 mg",
+      "valor": 19.99,
+      "imagem": "azitromicina.jpg",
+      "tipo": "medicamento"
+    },
+    {
+      "farmaco": "Losartana Potássica",
+      "detentor": "EMS S/A",
+      "medicamento": "Losartana EMS",
+      "registro": "1.0573.0118",
+      "concentracao": "50 mg",
+      "valor": 11.99,
+      "imagem": "losartana.jpg",
+      "tipo": "medicamento"
+    },
+    {
+      "farmaco": "Metformina",
+      "detentor": "Medley Farmacêutica Ltda.",
+      "medicamento": "Glifage",
+      "registro": "1.0390.0439",
+      "concentracao": "500 mg",
+      "valor": 7.99,
+      "imagem": "metformina.jpg",
+      "tipo": "medicamento"
+    },
+    {
+      "farmaco": "Enalapril",
+      "detentor": "EMS S/A",
+      "medicamento": "Enalapril EMS",
+      "registro": "1.0573.0119",
+      "concentracao": "10 mg",
+      "valor": 13.99,
+      "imagem": "enalapril.jpg",
+      "tipo": "medicamento"
+    },
+    {
+      "farmaco": "Sinvastatina",
+      "detentor": "Medley Farmacêutica Ltda.",
+      "medicamento": "Sinvastatina Medley",
+      "registro": "1.0390.0441",
+      "concentracao": "20 mg",
+      "valor": 14.99,
+      "imagem": "sinvastatina.jpg",
+      "tipo": "medicamento"
+    },
+    {
+      "farmaco": "Ácido Acetilsalicílico",
+      "detentor": "EMS S/A",
+      "medicamento": "AAS EMS",
+      "registro": "1.0573.0120",
+      "concentracao": "100 mg",
+      "valor": 5.99,
+      "imagem": "asa.jpg",
+      "tipo": "medicamento"
+    },
+    {
+      "farmaco": "Fluoxetina",
+      "detentor": "Medley Farmacêutica Ltda.",
+      "medicamento": "Prozac",
+      "registro": "1.0390.0443",
+      "concentracao": "20 mg",
+      "valor": 17.99,
+      "imagem": "fluoxetina.jpg",
+      "tipo": "medicamento"
+    },
+    {
+      "farmaco": "Omeprazol",
+      "detentor": "EMS S/A",
+      "medicamento": "Omeprazol EMS",
+      "registro": "1.0573.0121",
+      "concentracao": "20 mg",
+      "valor": 9.99,
+      "imagem": "omeprazol.jpg",
+      "tipo": "medicamento"
+    },
+    {
+      "farmaco": "Hidroclorotiazida",
+      "detentor": "Medley Farmacêutica Ltda.",
+      "medicamento": "Hidroclorotiazida Medley",
+      "registro": "1.0390.0445",
+      "concentracao": "25 mg",
+      "valor": 6.99,
+      "imagem": "hidroclorotiazida.jpg",
+      "tipo": "medicamento"
+    },
+    {
+      "farmaco": "Atorvastatina",
+      "detentor": "EMS S/A",
+      "medicamento": "Atorvastatina EMS",
+      "registro": "1.0573.0122",
+      "concentracao": "10 mg",
+      "valor": 19.99,
+      "imagem": "atorvastatina.jpg",
+      "tipo": "medicamento"
+    },
+    {
+      "farmaco": "Cloridrato de Metformina",
+      "detentor": "Medley Farmacêutica Ltda.",
+      "medicamento": "Glifage XR",
+      "registro": "1.0390.0447",
+      "concentracao": "500 mg",
+      "valor": 12.99,
+      "imagem": "metformina-xr.jpg",
+      "tipo": "medicamento"
+    },
+    {
+      "farmaco": "Cloridrato de Sertralina",
+      "detentor": "EMS S/A",
+      "medicamento": "Sertralina EMS",
+      "registro": "1.0573.0123",
+      "concentracao": "50 mg",
+      "valor": 15.99,
+      "imagem": "sertralina.jpg",
+      "tipo": "medicamento"
+    },
+    {
+      "farmaco": "Cloridrato de Bupropiona",
+      "detentor": "Medley Farmacêutica Ltda.",
+      "medicamento": "Wellbutrin",
+      "registro": "1.0390.0449",
+      "concentracao": "150 mg",
+      "valor": 22.99,
+      "imagem": "bupropiona.jpg",
+      "tipo": "medicamento"
+    },
+    {
+      "farmaco": "Cloridrato de Venlafaxina",
+      "detentor": "EMS S/A",
+      "medicamento": "Venlafaxina EMS",
+      "registro": "1.0573.0124",
+      "concentracao": "75 mg",
+      "valor": 18.99,
+      "imagem": "venlafaxina.jpg",
+      "tipo": "medicamento"
+    },
+    {
+      "farmaco": "Cloridrato de Duloxetina",
+      "detentor": "Medley Farmacêutica Ltda.",
+      "medicamento": "Cymbalta",
+      "registro": "1.0390.0451",
+      "concentracao": "30 mg",
+      "valor": 24.99,
+      "imagem": "duloxetina.jpg",
+      "tipo": "medicamento"
+    },    
+    {
+      "fármaco": "Vitamina C",
+      "detentor": "EMS S/A",
+      "medicamento": "Vitamina C EMS",
+      "registro": "1.0573.0125",
+      "concentração": "500 mg",
+      "valor": 12.99,
+      "imagem": "vitamina-c.jpg",
+      "tipo": "vitamina"
+    },
+    {
+      "fármaco": "Vitamina B1",
+      "detentor": "Medley Farmacêutica Ltda.",
+      "medicamento": "Tiamina Medley",
+      "registro": "1.0390.0453",
+      "concentração": "300 mg",
+      "valor": 9.99,
+      "imagem": "vitamina-b1.jpg",
+      "tipo": "vitamina"
+    },
+    {
+      "fármaco": "Vitamina B6",
+      "detentor": "EMS S/A",
+      "medicamento": "Piridoxina EMS",
+      "registro": "1.0573.0126",
+      "concentração": "100 mg",
+      "valor": 8.99,
+      "imagem": "vitamina-b6.jpg",
+      "tipo": "vitamina"
+    },
+    {
+      "fármaco": "Vitamina B12",
+      "detentor": "Medley Farmacêutica Ltda.",
+      "medicamento": "Cianocobalamina Medley",
+      "registro": "1.0390.0455",
+      "concentração": "5000 mcg",
+      "valor": 14.99,
+      "imagem": "vitamina-b12.jpg",
+      "tipo": "vitamina"
+    },
+    {
+      "fármaco": "Ácido Fólico",
+      "detentor": "EMS S/A",
+      "medicamento": "Ácido Fólico EMS",
+      "registro": "1.0573.0127",
+      "concentração": "5 mg",
+      "valor": 6.99,
+      "imagem": "acido-folico.jpg",
+      "tipo": "vitamina"
+    },
+    {
+      "fármaco": "Vitamina D3",
+      "detentor": "Medley Farmacêutica Ltda.",
+      "medicamento": "Vitamina D3 Medley",
+      "registro": "1.0390.0457",
+      "concentração": "1000 UI",
+      "valor": 11.99,
+      "imagem": "vitamina-d3.jpg",
+      "tipo": "vitamina"
+    },
+    {
+      "fármaco": "Vitamina E",
+      "detentor": "EMS S/A",
+      "medicamento": "Vitamina E EMS",
+      "registro": "1.0573.0128",
+      "concentração": "400 UI",
+      "valor": 15.99,
+      "imagem": "vitamina-e.jpg",
+      "tipo": "vitamina"
+    },
+    {
+      "fármaco": "Centrum",
+      "detentor": "Medley Farmacêutica Ltda.",
+      "medicamento": "Centrum",
+      "registro": "1.0390.0459",
+      "concentração": "1 comprimido",
+      "valor": 19.99,
+      "imagem": "centrum.jpg",
+      "tipo": "vitamina"
+    },
+    {
+      "fármaco": "Vitamina K1",
+      "detentor": "EMS S/A",
+      "medicamento": "Fitomenadiona EMS",
+      "registro": "1.0573.0129",
+      "concentração": "10 mg",
+      "valor": 13.99,
+      "imagem": "vitamina-k1.jpg",
+      "tipo": "vitamina"
+    },
+    {
+      "fármaco": "Complexo B",
+      "detentor": "Medley Farmacêutica Ltda.",
+      "medicamento": "Complexo B Medley",
+      "registro": "1.0390.0461",
+      "concentração": "1 comprimido",
+      "valor": 17.99,
+      "imagem": "complexo-b.jpg",
+      "tipo": "vitamina"
+    },
+    {
+      "fármaco": "Creatina Monohidratada",
+      "detentor": "EMS S/A",
+      "medicamento": "Creatina EMS",
+      "registro": "1.0573.0130",
+      "concentração": "5 g",
+      "valor": 39.99,
+      "imagem": "creatina.jpg",
+      "tipo": "suplemento"
+    },
+    {
+      "fármaco": "L-Glutamina",
+      "detentor": "Medley Farmacêutica Ltda.",
+      "medicamento": "Glutamina Medley",
+      "registro": "1.0390.0463",
+      "concentração": "5 g",
+      "valor": 49.99,
+      "imagem": "l-glutamina.jpg",
+      "tipo": "suplemento"
+    },
+    {
+      "fármaco": "Whey Protein",
+      "detentor": "EMS S/A",
+      "medicamento": "Whey Protein EMS",
+      "registro": "1.0573.0131",
+      "concentração": "25 g",
+      "valor": 89.99,
+      "imagem": "whey-protein.jpg",
+      "tipo": "suplemento"
+    },
+    {
+      "fármaco": "Óleo de Peixe",
+      "detentor": "Medley Farmacêutica Ltda.",
+      "medicamento": "Ômega 3 Medley",
+      "registro": "1.0390.0465",
+      "concentração": "1 g",
+      "valor": 29.99,
+      "imagem": "oleo-de-peixe.jpg",
+      "tipo": "suplemento"
+    },
+    {
+      "fármaco": "Cafeína Anidra",
+      "detentor": "EMS S/A",
+      "medicamento": "Cafeína EMS",
+      "registro": "1.0573.0132",
+      "concentração": "200 mg",
+      "valor": 19.99,
+      "imagem": "cafeina.jpg",
+      "tipo": "suplemento"
+    }
+  ]
+}

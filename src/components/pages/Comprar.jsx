@@ -1,97 +1,21 @@
 import React from "react";
+import Produto from "../Produto";
+import "./Comprar.css";
 
-export const Comprar = () => {
+export const Comprar = ({ produtos }) => {
   return (
     <>
-    <section>
-      <h1>Comprar</h1>
-      <br />
-      <div>
-        <h1>Produto</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sequi
-          hic dignissimos commodi iure natus amet ullam vitae saepe rem modi
-          quod, animi nam reiciendis minus quasi fugit dolores, necessitatibus
-          in. Veniam voluptatibus rem recusandae est eligendi fuga consequuntur!
-          Porro perspiciatis delectus inventore aperiam rerum quaerat voluptatum
-          deserunt facere sapiente sit doloremque numquam, laudantium quae
-          cumque nesciunt quo modi provident. Cum porro accusamus minus, minima
-          adipisci earum doloribus nesciunt unde veritatis facilis itaque
-          expedita ad perspiciatis tenetur ut possimus ducimus maiores quidem
-          exercitationem, fugiat reiciendis praesentium beatae. Nam ea odio
-          quaerat et porro libero, voluptates sequi rerum ex enim aspernatur.
-        </p>
+      <div className="produtos__container">
+        <div className="produtos">
+        <h1 className="produtos__title">Medicamentos</h1>
+        <br />
+        <div className="produtos__lista">
+          {produtos.map((produto, num) => (
+            <Produto key={num} {...produto} />
+          ))}
+        </div>
+        </div>
       </div>
-      <br />
-      <div>
-        <h1>Produto</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sequi
-          hic dignissimos commodi iure natus amet ullam vitae saepe rem modi
-          quod, animi nam reiciendis minus quasi fugit dolores, necessitatibus
-          in. Veniam voluptatibus rem recusandae est eligendi fuga consequuntur!
-          Porro perspiciatis delectus inventore aperiam rerum quaerat voluptatum
-          deserunt facere sapiente sit doloremque numquam, laudantium quae
-          cumque nesciunt quo modi provident. Cum porro accusamus minus, minima
-          adipisci earum doloribus nesciunt unde veritatis facilis itaque
-          expedita ad perspiciatis tenetur ut possimus ducimus maiores quidem
-          exercitationem, fugiat reiciendis praesentium beatae. Nam ea odio
-          quaerat et porro libero, voluptates sequi rerum ex enim aspernatur.
-        </p>
-      </div>
-      <br />
-      <div>
-        <h1>Produto</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sequi
-          hic dignissimos commodi iure natus amet ullam vitae saepe rem modi
-          quod, animi nam reiciendis minus quasi fugit dolores, necessitatibus
-          in. Veniam voluptatibus rem recusandae est eligendi fuga consequuntur!
-          Porro perspiciatis delectus inventore aperiam rerum quaerat voluptatum
-          deserunt facere sapiente sit doloremque numquam, laudantium quae
-          cumque nesciunt quo modi provident. Cum porro accusamus minus, minima
-          adipisci earum doloribus nesciunt unde veritatis facilis itaque
-          expedita ad perspiciatis tenetur ut possimus ducimus maiores quidem
-          exercitationem, fugiat reiciendis praesentium beatae. Nam ea odio
-          quaerat et porro libero, voluptates sequi rerum ex enim aspernatur.
-        </p>
-      </div>
-      <br />
-      <div>
-        <h1>Produto</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sequi
-          hic dignissimos commodi iure natus amet ullam vitae saepe rem modi
-          quod, animi nam reiciendis minus quasi fugit dolores, necessitatibus
-          in. Veniam voluptatibus rem recusandae est eligendi fuga consequuntur!
-          Porro perspiciatis delectus inventore aperiam rerum quaerat voluptatum
-          deserunt facere sapiente sit doloremque numquam, laudantium quae
-          cumque nesciunt quo modi provident. Cum porro accusamus minus, minima
-          adipisci earum doloribus nesciunt unde veritatis facilis itaque
-          expedita ad perspiciatis tenetur ut possimus ducimus maiores quidem
-          exercitationem, fugiat reiciendis praesentium beatae. Nam ea odio
-          quaerat et porro libero, voluptates sequi rerum ex enim aspernatur.
-        </p>
-      </div>
-      <br />
-      <div>
-        <h1>Produto</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sequi
-          hic dignissimos commodi iure natus amet ullam vitae saepe rem modi
-          quod, animi nam reiciendis minus quasi fugit dolores, necessitatibus
-          in. Veniam voluptatibus rem recusandae est eligendi fuga consequuntur!
-          Porro perspiciatis delectus inventore aperiam rerum quaerat voluptatum
-          deserunt facere sapiente sit doloremque numquam, laudantium quae
-          cumque nesciunt quo modi provident. Cum porro accusamus minus, minima
-          adipisci earum doloribus nesciunt unde veritatis facilis itaque
-          expedita ad perspiciatis tenetur ut possimus ducimus maiores quidem
-          exercitationem, fugiat reiciendis praesentium beatae. Nam ea odio
-          quaerat et porro libero, voluptates sequi rerum ex enim aspernatur.
-        </p>
-      </div>
-      <br />
-      </section>
     </>
   );
 };
