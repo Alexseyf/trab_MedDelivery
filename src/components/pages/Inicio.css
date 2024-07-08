@@ -24,6 +24,7 @@
 .home__right__side h2{
     font-size: 2rem;
     margin-bottom: 1rem;
+    color: var(--nav-color);
 }
 
 .home__right__side p{

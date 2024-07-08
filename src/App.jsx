@@ -5,6 +5,7 @@ import { Route, Routes } from "react-router-dom";
 import { Inicio, Comprar, Receita,  } from "./components/pages";
 import Fidelidade from "./components/pages/Fidelidade";
 import Sobre from "./components/pages/Sobre";
+import Footer from "./components/Footer";
 
 function App() {
   const [produtos, setProdutos] = React.useState([])
@@ -28,6 +29,7 @@ function App() {
           <Route path="/fidelidade" element={<Fidelidade />} />
           <Route path="/sobre" element={<Sobre />} />
         </Routes>
+        <Footer />
       </div>
     </>
   );

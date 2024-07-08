@@ -1,55 +1,94 @@
-.filter__container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
+.filter__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
 }
 
-.filter{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
+.filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
-.filter__title{
-    font-size: 2rem;
+.filter__title {
+  font-size: 2.5rem;
+  color: var(--nav-color);
+}
+
+.filter__group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.filter__group label {
+  font-size: 1.5rem;
+  color: var(--nav-color);
+}
+
+.filter__group select {
+  font-size: 1rem;
+  color: var(--nav-color);
+  padding: 0.5rem;
+  border: 1px solid var(--nav-color);
+  border-radius: 0.5rem;
+}
+
+.produtos__container {
+  display: flex;
+}
+
+.produtos__container .produtos__lista {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  padding: 2rem;
+  align-items: center;
+}
+
+.produtos__container .produtos__title {
+  text-align: center;
+  margin-top: 2rem;
+  color: var(--nav-color);
+}
+
+@media (max-width: 768px) {
+  .produtos__container .produtos__lista {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .filter__group label {
+    font-size: 1.2rem;
     color: var(--nav-color);
+  }
+
+  .filter__title {
+    font-size: 2rem;
+  }
+
+  .filter__group select {
+    font-size: 0.8rem;
+  }
 }
+@media (max-width: 480px) {
+  .produtos__container .produtos__lista {
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-.filter__group{
-    display: flex;
-    gap: 1rem;
-}
+  .filter__group label {
+    font-size: 1rem;
+    color: var(--nav-color);
+  }
 
+  .filter__title {
+    font-size: 1.5rem;
+    color: var(--nav-color);
+  }
 
-
-.produtos__container{
-    display: flex;
-}
-
-.produtos__container .produtos__lista{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
-    padding: 2rem;
-    align-items: center;
-}
-
-.produtos__container .produtos__title{
-    text-align: center;
-    margin-top: 2rem;
-color: var(--nav-color);
-}
-
-@media (max-width: 768px){
-    .produtos__container .produtos__lista{
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-@media (max-width: 480px){
-    .produtos__container .produtos__lista{
-        grid-template-columns: repeat(1, 1fr);
-    }
+  .filter__group select {
+    font-size: 1rem;
+  }
 }

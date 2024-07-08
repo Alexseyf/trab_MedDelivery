@@ -16,7 +16,8 @@ nav {
   background-color: var(--nav-text-color);
   position: sticky;
   top: 0;
-  border-bottom: 0.1rem solid var(--nav-active-color);
+  box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.2);
+  /* border-bottom: 0.1rem solid var(--nav-active-color); */
 }
 
 nav .logo__container {
@@ -48,7 +49,7 @@ nav ul li {
 nav ul li a {
   display: block;
   text-decoration: none;
-  color: var(--nav-active-color);
+  color: var(--nav-color);
   padding: 0.5rem;
   margin: 0 0.5rem;
   border-radius: 0.5rem;
