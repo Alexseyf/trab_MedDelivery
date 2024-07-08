@@ -1,8 +1,32 @@
+.filter__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.filter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.filter__title{
+    font-size: 2rem;
+    color: var(--nav-color);
+}
+
+.filter__group{
+    display: flex;
+    gap: 1rem;
+}
+
+
+
 .produtos__container{
     display: flex;
-    /* grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr)); */
-    /* gap: 16px;
-    padding: 16px; */
 }
 
 .produtos__container .produtos__lista{
