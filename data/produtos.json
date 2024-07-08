@@ -1,6 +1,7 @@
 {
   "produtos": [
     {
+      "id": 1,
       "farmaco": "Paracetamol",
       "detentor": "EMS S/A",
       "medicamento": "Paracetamol EMS",
@@ -11,6 +12,7 @@
       "tipo": "medicamento"
     },
     {
+      "id": 2,
       "farmaco": "Dipirona Sódica",
       "detentor": "Medley Farmacêutica Ltda.",
       "medicamento": "Novalgina",
@@ -21,6 +23,7 @@
       "tipo": "medicamento"
     },
     {
+      "id": 3,
       "farmaco": "Amoxicilina",
       "detentor": "EMS S/A",
       "medicamento": "Amoxil",
@@ -31,6 +34,7 @@
       "tipo": "medicamento"
     },
     {
+      "id": 4,
       "farmaco": "Ibuprofeno",
       "detentor": "Medley Farmacêutica Ltda.",
       "medicamento": "Ibupril",
@@ -41,6 +45,7 @@
       "tipo": "medicamento"
     },
     {
+      "id": 5,
       "farmaco": "Cefalexina",
       "detentor": "EMS S/A",
       "medicamento": "Keflex",
@@ -51,6 +56,7 @@
       "tipo": "medicamento"
     },
     {
+      "id": 6,
       "farmaco": "Azitromicina",
       "detentor": "Medley Farmacêutica Ltda.",
       "medicamento": "Zitromax",
@@ -61,6 +67,7 @@
       "tipo": "medicamento"
     },
     {
+      "id": 7,
       "farmaco": "Losartana Potássica",
       "detentor": "EMS S/A",
       "medicamento": "Losartana EMS",
@@ -71,6 +78,7 @@
       "tipo": "medicamento"
     },
     {
+      "id": 8,
       "farmaco": "Metformina",
       "detentor": "Medley Farmacêutica Ltda.",
       "medicamento": "Glifage",
@@ -81,6 +89,7 @@
       "tipo": "medicamento"
     },
     {
+      "id": 9,
       "farmaco": "Enalapril",
       "detentor": "EMS S/A",
       "medicamento": "Enalapril EMS",
@@ -91,6 +100,7 @@
       "tipo": "medicamento"
     },
     {
+      "id": 10,
       "farmaco": "Sinvastatina",
       "detentor": "Medley Farmacêutica Ltda.",
       "medicamento": "Sinvastatina Medley",
@@ -101,6 +111,7 @@
       "tipo": "medicamento"
     },
     {
+      "id": 11,
       "farmaco": "Ácido Acetilsalicílico",
       "detentor": "EMS S/A",
       "medicamento": "AAS EMS",
@@ -111,6 +122,7 @@
       "tipo": "medicamento"
     },
     {
+      "id": 12,
       "farmaco": "Fluoxetina",
       "detentor": "Medley Farmacêutica Ltda.",
       "medicamento": "Prozac",
@@ -121,6 +133,7 @@
       "tipo": "medicamento"
     },
     {
+      "id": 13,
       "farmaco": "Omeprazol",
       "detentor": "EMS S/A",
       "medicamento": "Omeprazol EMS",
@@ -131,6 +144,7 @@
       "tipo": "medicamento"
     },
     {
+      "id": 14,
       "farmaco": "Hidroclorotiazida",
       "detentor": "Medley Farmacêutica Ltda.",
       "medicamento": "Hidroclorotiazida Medley",
@@ -141,6 +155,7 @@
       "tipo": "medicamento"
     },
     {
+      "id": 15,
       "farmaco": "Atorvastatina",
       "detentor": "EMS S/A",
       "medicamento": "Atorvastatina EMS",
@@ -151,6 +166,7 @@
       "tipo": "medicamento"
     },
     {
+      "id": 16,
       "farmaco": "Cloridrato de Metformina",
       "detentor": "Medley Farmacêutica Ltda.",
       "medicamento": "Glifage XR",
@@ -161,6 +177,7 @@
       "tipo": "medicamento"
     },
     {
+      "id": 17,
       "farmaco": "Cloridrato de Sertralina",
       "detentor": "EMS S/A",
       "medicamento": "Sertralina EMS",
@@ -171,6 +188,7 @@
       "tipo": "medicamento"
     },
     {
+      "id": 18,
       "farmaco": "Cloridrato de Bupropiona",
       "detentor": "Medley Farmacêutica Ltda.",
       "medicamento": "Wellbutrin",
@@ -181,6 +199,7 @@
       "tipo": "medicamento"
     },
     {
+      "id": 19,
       "farmaco": "Cloridrato de Venlafaxina",
       "detentor": "EMS S/A",
       "medicamento": "Venlafaxina EMS",
@@ -191,6 +210,7 @@
       "tipo": "medicamento"
     },
     {
+      "id": 20,
       "farmaco": "Cloridrato de Duloxetina",
       "detentor": "Medley Farmacêutica Ltda.",
       "medicamento": "Cymbalta",
@@ -201,151 +221,166 @@
       "tipo": "medicamento"
     },    
     {
-      "fármaco": "Vitamina C",
+      "id": 21,
+      "farmaco": "Vitamina C",
       "detentor": "EMS S/A",
       "medicamento": "Vitamina C EMS",
       "registro": "1.0573.0125",
-      "concentração": "500 mg",
+      "concentracao": "500 mg",
       "valor": 12.99,
       "imagem": "vitamina-c.jpg",
       "tipo": "vitamina"
     },
     {
-      "fármaco": "Vitamina B1",
+      "id": 22,
+      "farmaco": "Vitamina B1",
       "detentor": "Medley Farmacêutica Ltda.",
       "medicamento": "Tiamina Medley",
       "registro": "1.0390.0453",
-      "concentração": "300 mg",
+      "concentracao": "300 mg",
       "valor": 9.99,
       "imagem": "vitamina-b1.jpg",
       "tipo": "vitamina"
     },
     {
-      "fármaco": "Vitamina B6",
+      "id": 23,
+      "farmaco": "Vitamina B6",
       "detentor": "EMS S/A",
       "medicamento": "Piridoxina EMS",
       "registro": "1.0573.0126",
-      "concentração": "100 mg",
+      "concentracao": "100 mg",
       "valor": 8.99,
       "imagem": "vitamina-b6.jpg",
       "tipo": "vitamina"
     },
     {
-      "fármaco": "Vitamina B12",
+      "id": 24,
+      "farmaco": "Vitamina B12",
       "detentor": "Medley Farmacêutica Ltda.",
       "medicamento": "Cianocobalamina Medley",
       "registro": "1.0390.0455",
-      "concentração": "5000 mcg",
+      "concentracao": "5000 mcg",
       "valor": 14.99,
       "imagem": "vitamina-b12.jpg",
       "tipo": "vitamina"
     },
     {
-      "fármaco": "Ácido Fólico",
+      "id": 25,
+      "farmaco": "Ácido Fólico",
       "detentor": "EMS S/A",
       "medicamento": "Ácido Fólico EMS",
       "registro": "1.0573.0127",
-      "concentração": "5 mg",
+      "concentracao": "5 mg",
       "valor": 6.99,
       "imagem": "acido-folico.jpg",
       "tipo": "vitamina"
     },
     {
-      "fármaco": "Vitamina D3",
+      "id": 26,
+      "farmaco": "Vitamina D3",
       "detentor": "Medley Farmacêutica Ltda.",
       "medicamento": "Vitamina D3 Medley",
       "registro": "1.0390.0457",
-      "concentração": "1000 UI",
+      "concentracao": "1000 UI",
       "valor": 11.99,
       "imagem": "vitamina-d3.jpg",
       "tipo": "vitamina"
     },
     {
-      "fármaco": "Vitamina E",
+      "id": 27,
+      "farmaco": "Vitamina E",
       "detentor": "EMS S/A",
       "medicamento": "Vitamina E EMS",
       "registro": "1.0573.0128",
-      "concentração": "400 UI",
+      "concentracao": "400 UI",
       "valor": 15.99,
       "imagem": "vitamina-e.jpg",
       "tipo": "vitamina"
     },
     {
-      "fármaco": "Centrum",
+      "id": 28,
+      "farmaco": "Centrum",
       "detentor": "Medley Farmacêutica Ltda.",
       "medicamento": "Centrum",
       "registro": "1.0390.0459",
-      "concentração": "1 comprimido",
+      "concentracao": "1 comprimido",
       "valor": 19.99,
       "imagem": "centrum.jpg",
       "tipo": "vitamina"
     },
     {
-      "fármaco": "Vitamina K1",
+      "id": 29,
+      "farmaco": "Vitamina K1",
       "detentor": "EMS S/A",
       "medicamento": "Fitomenadiona EMS",
       "registro": "1.0573.0129",
-      "concentração": "10 mg",
+      "concentracao": "10 mg",
       "valor": 13.99,
       "imagem": "vitamina-k1.jpg",
       "tipo": "vitamina"
     },
     {
-      "fármaco": "Complexo B",
+      "id": 30,
+      "farmaco": "Complexo B",
       "detentor": "Medley Farmacêutica Ltda.",
       "medicamento": "Complexo B Medley",
       "registro": "1.0390.0461",
-      "concentração": "1 comprimido",
+      "concentracao": "1 comprimido",
       "valor": 17.99,
       "imagem": "complexo-b.jpg",
       "tipo": "vitamina"
     },
     {
-      "fármaco": "Creatina Monohidratada",
+      "id": 31,
+      "farmaco": "Creatina Monohidratada",
       "detentor": "EMS S/A",
       "medicamento": "Creatina EMS",
       "registro": "1.0573.0130",
-      "concentração": "5 g",
+      "concentracao": "5 g",
       "valor": 39.99,
       "imagem": "creatina.jpg",
       "tipo": "suplemento"
     },
     {
-      "fármaco": "L-Glutamina",
+      "id": 32,
+      "farmaco": "L-Glutamina",
       "detentor": "Medley Farmacêutica Ltda.",
       "medicamento": "Glutamina Medley",
       "registro": "1.0390.0463",
-      "concentração": "5 g",
+      "concentracao": "5 g",
       "valor": 49.99,
       "imagem": "l-glutamina.jpg",
       "tipo": "suplemento"
     },
     {
-      "fármaco": "Whey Protein",
+      "id": 33,
+      "farmaco": "Whey Protein",
       "detentor": "EMS S/A",
       "medicamento": "Whey Protein EMS",
       "registro": "1.0573.0131",
-      "concentração": "25 g",
+      "concentracao": "25 g",
       "valor": 89.99,
       "imagem": "whey-protein.jpg",
       "tipo": "suplemento"
     },
     {
-      "fármaco": "Óleo de Peixe",
+      "id": 34,
+      "farmaco": "Óleo de Peixe",
       "detentor": "Medley Farmacêutica Ltda.",
       "medicamento": "Ômega 3 Medley",
       "registro": "1.0390.0465",
-      "concentração": "1 g",
+      "concentracao": "1 g",
       "valor": 29.99,
       "imagem": "oleo-de-peixe.jpg",
       "tipo": "suplemento"
     },
     {
-      "fármaco": "Cafeína Anidra",
+      "id": 35,
+      "farmaco": "Cafeína Anidra",
       "detentor": "EMS S/A",
       "medicamento": "Cafeína EMS",
       "registro": "1.0573.0132",
-      "concentração": "200 mg",
+      "concentracao": "200 mg",
       "valor": 19.99,
       "imagem": "cafeina.jpg",
       "tipo": "suplemento"

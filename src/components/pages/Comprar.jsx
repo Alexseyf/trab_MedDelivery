@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Produto from "../Produto";
 import "./Comprar.css";
 
-export const Comprar = ({ produtos }) => {
+export const Comprar = ({ produtos, addProductToCart }) => {
   const [filteredProdutos, setFilteredProdutos] = useState(produtos);
   const [title, setTitle] = useState("Produtos");
 
@@ -56,7 +56,7 @@ export const Comprar = ({ produtos }) => {
           <br />
           <div className="produtos__lista">
             {filteredProdutos.map((produto, num) => (
-              <Produto key={num} {...produto} />
+              <Produto key={num} {...produto} addProductToCart={addProductToCart} />
             ))}
           </div>
         </div>

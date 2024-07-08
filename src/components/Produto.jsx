@@ -2,6 +2,7 @@ import React from 'react'
 import './Produto.css'
 
 const Produto = ({
+    id,
     farmaco,
     detentor,
     medicamento,
@@ -9,6 +10,7 @@ const Produto = ({
     concentracao,
     valor,
     imagem,
+    addProductToCart,
   }) => {
   return (
     <div className="produto__container">
@@ -21,7 +23,7 @@ const Produto = ({
       <p>Preço: {valor}</p>
       <div className="buttons__container">
         <button className="comprar__btn">Comprar Agora</button>
-        <button className="carrinho__btn">Adicionar ao carrinho</button>
+        <button onClick={()=>addProductToCart(id)}  className="carrinho__btn">Adicionar ao carrinho</button>
       </div>
     </div>
   )

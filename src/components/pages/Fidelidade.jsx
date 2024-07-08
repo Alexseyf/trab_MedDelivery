@@ -1,9 +1,10 @@
 import React from "react";
 
 function Fidelidade() {
+  const [cliente, setCliente] = React.useState('')
   return (
     <div>
-      <h1>Fidelidade</h1>
+
     </div>
   );
 }
